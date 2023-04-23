@@ -1,0 +1,14 @@
+.el-input-number .el-input__inner {
+  text-align: left !important;
+}
+
+.el-input.is-disabled .el-input__inner,
+.el-textarea.is-disabled .el-textarea__inner {
+  -webkit-text-fill-color: unset !important;
+  color: black !important;
+}
+
+.el-radio__input.is-disabled+span.el-radio__label,
+.el-checkbox__input.is-disabled+span.el-checkbox__label {
+  color: #606266 !important
+}
