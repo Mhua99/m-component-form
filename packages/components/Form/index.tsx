@@ -95,8 +95,6 @@ export default defineComponent({
       formRef.value.resetFields();
     };
 
-    console.log("form data");
-
     expose({
       initForm,
       formChildRef,
@@ -108,7 +106,6 @@ export default defineComponent({
     });
 
     return () => {
-      console.log("form render", props.modelValue, "____props.modelValue");
       return (
         <el-form
           ref={formRef}

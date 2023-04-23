@@ -8,6 +8,8 @@
   "files": [
     "dist"
   ],
+  "author": "Mhua99",
+  "repository": "https://github.com/Mhua99/m-component-form",
   "exports": {
     ".": {
       "import": "./dist/index.es.js",
